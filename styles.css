@@ -486,7 +486,6 @@ main {
   border-radius: 5px;
   display: block;
   transition: transform 0.5s;
-  object-fit: cover;
 }
 .layer {
   width: 100%;
@@ -504,7 +503,6 @@ main {
   text-align: center;
   padding: 0 40px;
   transition: height 0.5s;
-  opacity: 20%;
 }
 
 .layer h5 {
