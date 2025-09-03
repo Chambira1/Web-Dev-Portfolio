@@ -483,6 +483,7 @@ main {
 }
 .row img {
   width: 100%;
+  height: 100%;
   border-radius: 5px;
   display: block;
   transition: transform 0.5s;
@@ -492,6 +493,7 @@ main {
   width: 100%;
   height: 0;
   background: linear-gradient(black, purple);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   border-radius: 8px;
   left: 0;
@@ -504,7 +506,7 @@ main {
   text-align: center;
   padding: 0 40px;
   transition: height 0.5s;
-  opacity: 20%;
+  opacity: 0;
 }
 
 .layer h5 {
